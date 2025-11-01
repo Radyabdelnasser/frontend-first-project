@@ -64,7 +64,7 @@ export default function Register() {
     <div className="min-h-screen flex items-center mt-8 justify-center bg-gray-700">
       <form
         onSubmit={formik.handleSubmit}
-        className="bg-gray-100 p-8 rounded-2xl shadow-xl w-[70%] max-w-2xl"
+        className="bg-gray-200 p-8 rounded-2xl shadow-xl w-[70%] max-w-2xl"
       >
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">
           Create New Account

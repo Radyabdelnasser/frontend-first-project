@@ -7,7 +7,7 @@ import CartContextProvider from "./components/cartContext/cartContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 
-  <BrowserRouter>
+  <BrowserRouter basename="/frontend-first-project">
 
     <CartContextProvider>
 

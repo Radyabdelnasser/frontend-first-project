@@ -8,11 +8,11 @@ export default function HeroSections() {
             className="pt-10 bg-cover bg-center min-h-screen flex items-center justify-center"
         >
             <div className="relative text-center px-4 sm:px-6 md:px-12 max-w-3xl">
-                <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-blue-600 leading-tight">
+                <h1 className="text-3xl sm:text-5xl lg:text-6xl lg:mb-10 font-bold text-blue-600 leading-tight">
                     All you need, all in one place
                 </h1>
 
-                <p className="mt-4 text-gray-700 text-sm sm:text-lg md:text-xl leading-relaxed">
+                <p className="mt-4 text-gray-500 text-sm sm:text-lg md:text-xl leading-relaxed">
                     Find everything you need — from timeless classics to the latest trends —
                     all crafted with quality you can trust and prices you’ll love.
                 </p>
