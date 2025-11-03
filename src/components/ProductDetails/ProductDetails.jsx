@@ -3,10 +3,14 @@ import { Link, useParams } from 'react-router-dom';
 import { CartContext } from '../cartContext/cartContext';
 
 export default function ProductDetails() {
+
+
     const { addToCart } = useContext(CartContext);
+
     const { id } = useParams();
 
     const [product, setProduct] = useState(null);
+
     const [mainImage, setMainImage] = useState('');
 
     useEffect(() => {
@@ -37,6 +41,7 @@ export default function ProductDetails() {
     const totalStars = 5;
 
     return (
+
         <>
             <section className="bg-gray-50 min-h-screen py-10 px-4 sm:px-6 lg:px-12">
                 <div className="max-w-6xl mx-auto bg-white p-6 sm:p-10 rounded-2xl shadow-lg">

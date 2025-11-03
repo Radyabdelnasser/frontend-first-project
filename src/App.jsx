@@ -6,13 +6,13 @@ import About from "./components/about/about";
 import Products from "./components/products/products";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Cart from "./components/cart/cart";
-import Login from "./components/login/login";
-import Register from "./components/register/register";
 import Category from "./components/category/category";
 import CategoryProducts from "./components/categoryProducts/categoryProducts";
 import Profile from "./components/profile/profile";
 import { Toaster } from "react-hot-toast";
 import AuthContextProvider from "./components/authContext/authContext";
+import AuthPage from "./components/authPage/authPage";
+import Checkout from "./components/checkout/checkout";
 
 export default function App() {
   return (
@@ -26,9 +26,9 @@ export default function App() {
             <Route path="products" element={<Products />} />
             <Route path="/productdetails/:id" element={<ProductDetails />} />
             <Route path="/cart" element={<Cart />} />
-            <Route path="login" element={<Login />} />
-            <Route path="register" element={<Register />} />
+            <Route path="authPage" element={<AuthPage />} />
             <Route path="category" element={<Category />} />
+            <Route path="checkout" element={<Checkout />} />
             <Route path="category/:categoryName" element={<CategoryProducts />} />
             <Route path="profile" element={<Profile />} />
             <Route path="*" element={<NotFound />} />

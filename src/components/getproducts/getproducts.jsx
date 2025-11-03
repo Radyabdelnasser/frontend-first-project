@@ -181,7 +181,7 @@ export default function Getproducts() {
                     {/* All Products Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 bg-white mt-5 gap-6 p-4">
                         {filteredProducts.map((item) => (
-                            <div key={item.id} className="border rounded-xl shadow-md p-4 hover:scale-105 bg-gray-200">
+                            <div key={item.id} className="border rounded-xl shadow-md p-4 hover:scale-105P bg-gray-200">
                                 <img
                                     src={item.thumbnail}
                                     alt={item.title}

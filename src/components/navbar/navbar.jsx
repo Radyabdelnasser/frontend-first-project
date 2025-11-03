@@ -121,10 +121,10 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="/register"
+            to="/authPage"
             className="bg-blue-600 w-20 text-center rounded py-1 text-white"
           >
-            Register
+            Login
           </Link>
         </div>
 
@@ -161,8 +161,8 @@ export default function Navbar() {
           <NavLink to="/profile" className="block text-white hover:text-blue-600">
             Profile
           </NavLink>
-          <NavLink to="/register" className="block text-white hover:text-blue-600">
-            Register
+          <NavLink to="/authPage" className="block text-white hover:text-blue-600">
+            Login
           </NavLink>
         </div>
       )}

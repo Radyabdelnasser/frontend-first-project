@@ -1,9 +1,11 @@
+
 import React, { createContext, useState, useEffect } from "react";
 import toast from "react-hot-toast";
 
 export const CartContext = createContext();
 
 export default function CartContextProvider({ children }) {
+
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
